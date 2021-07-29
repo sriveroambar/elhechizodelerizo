@@ -1,0 +1,19 @@
+{
+  "name": "elhechizodelerizo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriveroambar/elhechizodelerizo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriveroambar/elhechizodelerizo/issues"
+  },
+  "homepage": "https://github.com/sriveroambar/elhechizodelerizo#readme"
+}
