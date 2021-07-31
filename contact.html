@@ -5,13 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ddac4e10f0.js" crossorigin="anonymous"></script>
+
 </head>
+
+<header>
+    <a href="/index.html"><img src="http://simpatiques.com/wp-content/uploads/2021/07/el-hechizo-del-erizo.png" alt="" id="logo"></a>
+   <nav id="menu">
+    <ul>
+        <li></li><a href="/about.html">ABOUT</li></a>
+        <li><a href="/contact.html">CONTACT</li></a>
+    </ul>
+    </nav>
+</header>
+
 <body>
-    
+ <main>
+    <h1>
+        ¿Te gustó lo que hacemos? Contactanos ♥
+    </h1>
+        <form action="http://static.altcooperativa.com/forms/">
+    <div class="inputContainer">  
+        <label>Nombre</label> 
+            <input type="text" class="inputs" name="Nombre" placeholder="Escribí tu nombre." required>
+    </div>       
+    <div class="inputContainer">   
+        <label>Apellido</label>  
+                <input type="text" class="inputs" name="apellido" placeholder="Escribí tu apellido." required>
+    </div>
+    <div class="inputContainer">       
+        <label>Email</label>
+            <input type="text" class="inputs" name="email" placeholder="tuemail@gmail.com" required>
+    </div>       
+    <div class="inputContainer">   
+        <label>Fecha de nacimiento</label>
+            <input type="date" class="inputs" name="dateofbirth"> 
+    </div>
+
+        <label>¿Querés recibir notificaciones por mail?</label>
+     <div class="inputContainer">
+        <label> Sí </label> 
+            <input type="radio" name="notificaciones" value="notificaciones-si" checked>
+     </div> 
+     <div class="inputContainer"> 
+        <label> No </label>
+            <input type="radio" name="notificaciones" value="notificaciones-no">
+    </div>
+        
+    <div class="inputContainer">
+        <label>¿Querés dejarnos un comentario?</label>
+    <div class="textAreaContainer">
+          <textarea rows="4" cols="40" maxlength="200"></textarea> 
+     </div>
+     </div> 
+    <input class="submitButton" type="submit" value="Enviar form">
+      
+    </form>
+</main>
+<section>
+    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=La%20plata,%20Argentina+(%C2%BFD%C3%B3nde%20estamos?)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"></a></div>
+</section>
 </body>
+<footer>
+    <ul>
+        <li></li><a href="/about.html">ABOUT</li></a>
+        <li><a href="/contact.html">CONTACT</li></a>
+    </ul>
+    <div class="footerimg"><img src="http://simpatiques.com/wp-content/uploads/2021/07/el-hechizo-del-erizo.png" alt=""></div>
+</footer>
 </html>
